@@ -1,0 +1,497 @@
+@charset "utf-8";
+body{
+	margin:0px;
+	padding:0px;
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+section{
+	width:100%;
+	position: relative;
+}
+section nav {
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	height:60px;
+	padding:0px 5%;
+	
+}
+section nav ul{
+	display: flex;
+}
+ 
+section nav ul li a{
+	margin:30px;
+	font-family: 'Roboto', sans-serif; 
+	color:#505050;
+	font-size: 18px;
+	font-weight:700;
+}
+.logo{
+   width: 100px;
+}
+section nav ul li a:hover {
+    color:#0864fc;
+}
+.sign-up{
+    color: #0864fc;
+}
+.search{
+    padding:0px 5%;
+    height: 120px;
+     margin-bottom:10px;
+}
+div p1{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+div p2{
+    font-size: 18px;
+    font-family: font-family: 'Poppins', sans-serif;
+    opacity: 60%;
+}
+form.form input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid #d9d9d9;
+  float: left;
+  border-left:none;
+  border-right:none;
+    margin-top: 10px;
+}
+
+form.form button {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  background: #0864fc;
+  color: white;
+  font-size: 17px;
+  border: 1px solid #b3b3b3;
+  border-left: none;
+  cursor: pointer;
+  border-bottom-right-radius:12px;
+  border-top-right-radius: 12px;
+  margin-top: 10px;
+}
+form.form i {
+  float: left;
+  width: 5%;
+  padding: 10px;
+  padding-left: 15px;
+  background:#d9d9d9;
+  color: black;
+  border:1px  solid #d9d9d9;
+  border-right: none;
+  cursor: pointer;
+  border-bottom-left-radius:12px;
+  border-top-left-radius: 12px;
+   margin-top: 10px;
+}
+form.form button:hover {
+  background:#024fca ; 
+}
+.flex-container p{
+    font-size: 24px;
+    padding-right: 20px;
+}
+.flex-container {
+  display: flex;
+    padding:0px 5%;
+}
+
+.flex-container > div {
+  border: 2px solid #cccccc;
+  margin: 15px;
+  padding: 0px 10px;
+  font-size: 17pxpx;
+  border-left:none;
+    border-radius: 25px;
+    font-weight: bold;
+    
+}
+.flex-container div i{
+    background-color:#b3d0fe;
+    border-radius: 25px;
+    padding: 10px;
+    margin-left: -20px;
+    color:#0864fc;
+}
+.accomo{
+     padding:0px 5%;
+    font-size: 18px;
+    max-width:29%;
+}
+.accomo i {
+    color:#0864fc;
+    border:1px solid #cccccc;
+    border-radius:50%;
+    padding:5px 10px;   
+    margin-right: 20px;
+}
+.icon{
+    float: left;
+    max-width: 30%;
+}
+div.container-left{
+    max-width:50%;
+    height: 100px;
+    background-color:#f2f2f2; 
+    padding:0px 5%;
+    margin-left: 5%;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+div.container-right{
+    max-width:25%;
+    height: 100px;
+    background-color:#f2f2f2; 
+    margin-left: 5%;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+.float-container {
+  padding:0px 5%;   
+}
+
+.float-child1 {
+    width: 63%;
+    float: left;
+    border-radius:25px;
+    background-color: #f2f2f2;
+    height: 580px;
+    margin-right: 3%;
+}  
+
+.accommodations{
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.most-popular{
+  padding: 20px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin:20px;
+}
+.float-child1 .accommodations .main {
+  width: 95%;
+  height: 100% ;
+  display: flex;
+  flex-flow:  wrap;
+  text-align: center;
+}
+
+ .float-child1 .accommodations .main div {
+  width: 210px;
+  height: 170px;
+  margin: 10px;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ .a
+{
+    background-image: url(images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+    background-size: cover;
+    border: 2px solid #ffffff;
+}
+ .b
+{
+    background-image: url(images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+    background-size: cover;
+    border: 2px solid #ffffff;
+}
+
+ .c
+{
+    background-image: url(images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
+    background-size: cover;
+     border: 2px solid #ffffff;
+}
+ .d
+{
+    background-image: url(images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+    background-size: cover;
+     border: 2px solid #ffffff;
+}
+.e
+{
+    background-image: url(images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+     background-size: cover;
+     border: 2px solid #ffffff;
+}
+.f
+{
+    background-image: url(images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+    background-size:219px 130px;
+     border: 2px solid #ffffff;
+}
+.a p 
+{
+    background-color: white;
+    height: 60px;
+    text-align: left;
+    margin-top: 112px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    font-size: 15px;
+     padding:0px 3%;   
+    
+}
+span1{
+    font-size: 13px;
+    opacity: 60%;
+}
+span{
+    color:#cccccc;
+    
+}
+.checked
+{
+    color: #0864fc;
+}
+.b p 
+{
+    background-color: white;
+    height: 60px;
+    text-align: left;
+    margin-top: 112px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    font-size: 15px;
+     padding:0px 3%;   
+    
+}
+.b span1{
+    font-size: 13px;
+    opacity: 60%;
+}
+.c p 
+{
+    background-color: white;
+    height: 60px;
+    text-align: left;
+    margin-top: 112px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    font-size: 15px;
+     padding:0px 3%;   
+    
+}
+.c span1{
+    font-size: 13px;
+    opacity: 60%;
+}
+.d p 
+{
+    background-color: white;
+    height: 60px;
+    text-align: left;
+    margin-top: 112px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    font-size: 15px;
+     padding:0px 3%;   
+    
+}
+.d span1{
+    font-size: 13px;
+    opacity: 60%;
+}
+.e p 
+{
+    background-color: white;
+    height: 60px;
+    text-align: left;
+    margin-top: 112px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    font-size: 15px;
+     padding:0px 3%;   
+    
+}
+.e span1{
+    font-size: 13px;
+    opacity: 60%;
+}
+.f p 
+{
+    background-color: white;
+    height: 60px;
+    text-align: left;
+    margin-top: 112px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    font-size: 15px;
+     padding:0px 3%;   
+    
+}
+.fspan1{
+    font-size: 13px;
+    opacity: 60%;
+}
+.float-child2 {
+    width: 33%;
+    float: left;
+     border-radius:25px;
+    background-color: #f2f2f2;
+    height: 580px;
+}  
+.float-child2 .all div{
+  width: 90%; 
+  height: 130px;
+  margin: 20px;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  border:2px solid white;
+}
+.g{
+ background-image: url(images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+ background-size: 130px 130px;
+}
+.h
+{
+    background-image: url(images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
+    background-size: 130px 130px;
+}
+.i{
+    background-image: url(images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+    background-size: 130px 130px; 
+}
+.g p{
+    background-color: white;
+    height: 98px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    font-size: 18px;
+    margin-left: 132px;
+    margin-top:0px;
+   border:2px solid white;
+    padding: 15px;
+}
+.h p
+{
+     background-color: white;
+    height:98px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    font-size: 18px;
+    margin-left: 132px;
+    margin-top:0px;
+   border:2px solid white;
+    padding: 15px;
+   float: right;
+}
+.i p
+{
+    background-color: white;
+    height: 132px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    font-size: 18px;
+    margin-left: 132px;
+    margin-top:0px;
+   border:2px solid white;
+     padding:0px 5%;   
+}
+.activites{
+    margin-top: 600px;
+    padding:0px 5%;
+}
+.activites p{
+ font-size:20px;
+ font-family: font-family: 'Poppins', sans-serif;
+}
+
+.item1 
+{ grid-area: oldPort; 
+background-image: url(images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+    height: 500px;
+    width: 300px;
+    background-size: cover;
+}
+.item2 { grid-area: pomèguesFort;
+    background-image: url(images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+     height: 240px;
+    width: 300px;
+    background-size: cover;
+    background-size: 300px 300px;
+    
+}
+.item3 { grid-area: FrioulIsland; 
+    background-image: url(images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+    height: 240px;
+    width: 300px;
+    background-size: cover;
+}
+.item4 { grid-area: CalanquesPark;
+    background-image: url(images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+    height:500px;
+    width: 300px;
+    background-size: cover;
+
+}
+.item5 { grid-area: notredame; 
+ background-image: url(images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+    height: 240px;
+    width: 300px;
+    background-size: cover;
+}
+.item6 {  grid-area: longchamp; 
+    background-image: url(images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+        height: 240px;
+    width: 300px;
+    background-size: cover;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'oldPort oldPort pomèguesFort pomèguesFort CalanquesPark CalanquesPark notredame notredame'
+    'oldPort oldPort pomèguesFort pomèguesFort CalanquesPark CalanquesPark notredame notredame'
+    'oldPort oldPort FrioulIsland FrioulIsland CalanquesPark CalanquesPark longchamp longchamp'
+    'oldPort oldPort FrioulIsland FrioulIsland CalanquesPark CalanquesPark longchamp longchamp';
+  grid-gap: 20px;
+  padding: 20px;
+}
+.grid-container div{
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.grid-container .item1 p{
+    margin-top: 450px;
+}
+.grid-container .item4 p{
+    margin-top: 450px;
+}
+.grid-container div p{
+    background-color: white;
+    height: 50px;
+    margin-top: 200px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+footer{
+    background-color: #f2f2f2;
+    height: 300px;
+}
+.flex-container2 {
+  display: flex;
+  padding:5%;
+}
+
+.flex-container2 > div {
+    padding-right:20%;
+    font-size: 20px;
+}
